@@ -1,6 +1,6 @@
 # NLP-Based CV Parsing Project: An In-depth Exploration of Techniques and Tools: 
 
-##The "cv_parser" project represents a meticulous exploration of NLP tools and techniques, offering a comprehensive guide to building a sophisticated resume parser in Python. By incorporating fundamental processes and advanced libraries such as SpaCy and Apache Tika, the project aims to empower users with the skills necessary for robust resume information extraction and analysis.
+The "cv_parser" project represents a meticulous exploration of NLP tools and techniques, offering a comprehensive guide to building a sophisticated resume parser in Python. By incorporating fundamental processes and advanced libraries such as SpaCy and Apache Tika, the project aims to empower users with the skills necessary for robust resume information extraction and analysis.
 
 
 ## NLP Tools and Techniques Used:
@@ -24,7 +24,7 @@ Stopwords Elimination, a preprocessing step, involves the removal of inconsequen
 
 SpaCy, a versatile Python library, emerges as a cornerstone in the project, facilitating the implementation of various NLP techniques. The tutorial provides a comprehensive guide on leveraging SpaCy for Named Entity Recognition (NER) and visualizing entities through its built-in tool, displacy. The project underscores SpaCy's support for rule-based matching, shallow parsing, and dependency parsing.
 
-### #OCR using TIKA
+### OCR using TIKA
 
 The integration of Apache Tika for Optical Character Recognition (OCR) introduces a novel dimension to the project. OCR plays a pivotal role in converting images into text, enabling the extraction of textual information from PDF files. The textual data extracted is subsequently subjected to diverse NLP methodologies to derive meaningful insights.
 
