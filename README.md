@@ -1,38 +1,30 @@
-# NLP_Resume_ParserNLP Project to Build a Resume Parser in Python using Spacy
+# NLP-Based CV Parsing Project: An In-depth Exploration of Techniques and Tools: 
+
+##The "cv_parser" project represents a meticulous exploration of NLP tools and techniques, offering a comprehensive guide to building a sophisticated resume parser in Python. By incorporating fundamental processes and advanced libraries such as SpaCy and Apache Tika, the project aims to empower users with the skills necessary for robust resume information extraction and analysis.
 
 
 ## NLP Tools and Techniques Used:
 ### Tokenization
 
-It is the process of splitting textual data into different pieces called tokens. One can either break a sentence into tokens of words or characters; the choice depends on the problem one is interested in solving. It is usually the first step that is performed in any NLP project, and the same will be the case with this resume parser using NLP project. Tokenization helps in further steps of an NLP pipeline which usually involves evaluating the weights of all the words depending on their significance in the corpus.
-
-
+NLP serves as the foundational framework for this project, commencing with the pivotal step of Tokenization. The process involves segmenting textual data into tokens, facilitating subsequent steps in the NLP pipeline. The project underscores the significance of tokenization in determining the weights of words based on their relevance within the corpus.
 
 ### Lemmatization
 
-The larger goal of this resume parsing python application is to decode the semantics of the text. For that, the form of the verb that is used does not have a significant impact. Therefore, lemmatization is used to convert all the words into their root form, called 'lemma.' For example, 'drive,' 'driving, 'drove' all have the same lemma 'drive.'
-
-
+Lemmatization emerges as a critical component in decoding the semantics of text, aiming to convert words into their root forms or 'lemmas.' This process ensures a uniform understanding of the underlying content, irrespective of the specific form of verbs used.
 
 ### Parts-of-Speech Tagging
 
-If you consider the word "Apple," it can have two meanings in a sentence. Depending on whether it has been used as a proper noun or a common noun, you will understand whether one is discussing the multinational tech company or the fruit. This CV parser python project will understand how POS Tagging is implemented in Python.
-
-
+An exploration into Parts-of-Speech (POS) Tagging is paramount in discerning the contextual meaning of words. The project elucidates the implementation of POS Tagging in Python, offering insights into disambiguating terms with multiple meanings.
 
 ### Stopwords Elimination
 
-Stopwords are the words like 'a', 'the,' 'am', 'is', etc., that hardly add any meaning to a sentence. These words are usually deleted to save on processing power and time. In their CV, an applicant may submit their work experience in long paragraphs with many stopwords. For such cases, it becomes essential to know how to extract experience from a resume in python, which you will learn in this project.
-
-
+Stopwords Elimination, a preprocessing step, involves the removal of inconsequential words, optimizing processing efficiency. The project delves into the necessity of extracting relevant information from resumes, particularly in cases where applicants present work experiences embedded in lengthy paragraphs replete with stopwords.
 
 ### SpaCy
 
-SpaCy is a library in Python that is widely used in many NLP-based projects by data scientists as it offers quick implementation of techniques mentioned above. Additionally, one can use SpaCy to visualize different entities in text data through its built-in visualizer called displacy. Furthermore, SpaCy supports the implementation of rule-based matching, shallow parsing, dependency parsing, etc. This NLP resume parser project will guide you on using SpaCy for Named Entity Recognition (NER).
-
-
+SpaCy, a versatile Python library, emerges as a cornerstone in the project, facilitating the implementation of various NLP techniques. The tutorial provides a comprehensive guide on leveraging SpaCy for Named Entity Recognition (NER) and visualizing entities through its built-in tool, displacy. The project underscores SpaCy's support for rule-based matching, shallow parsing, and dependency parsing.
 
 ### #OCR using TIKA
 
-Used Apache Tika, an open-source library for implementing OCR in this project. OCR stands for optical character recognition. It involves converting images into text and will be used in this resume extraction python project for decoding text information from the PDF files. The textual data is processed using various NLP methods to extract meaningful information.
+The integration of Apache Tika for Optical Character Recognition (OCR) introduces a novel dimension to the project. OCR plays a pivotal role in converting images into text, enabling the extraction of textual information from PDF files. The textual data extracted is subsequently subjected to diverse NLP methodologies to derive meaningful insights.
 
